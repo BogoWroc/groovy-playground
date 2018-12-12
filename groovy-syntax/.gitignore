@@ -1,4 +1,6 @@
 .attach_*
+.gradle
 .idea
 *.iml
 out
+build
