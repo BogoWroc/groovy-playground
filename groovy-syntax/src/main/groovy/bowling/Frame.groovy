@@ -2,13 +2,13 @@ package bowling
 
 class Frame {
     public static final int MAX_PIN_NUMBER = 10
-    final int round
+    final int no
     int bowl1
     int bowl2
     private FrameStatus status = FrameStatus.MISS
 
-    Frame(int round) {
-        this.round = round
+    Frame(int no) {
+        this.no = no
     }
 
     int score() {
@@ -37,6 +37,6 @@ class Frame {
 
     @Override
     String toString() {
-        "Frame<${round}>: bowl1: ${bowl1} pins knocked down, bowl2: ${bowl2} knocked down"
+        "Frame<${no}>: bowl1: ${bowl1} pins knocked down, bowl2: ${bowl2} knocked down"
     }
 }
