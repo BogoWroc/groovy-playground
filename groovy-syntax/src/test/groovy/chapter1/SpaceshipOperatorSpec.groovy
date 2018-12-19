@@ -2,7 +2,7 @@ package chapter1
 
 import spock.lang.Specification
 
-class SpaceshipOperator extends Specification {
+class SpaceshipOperatorSpec extends Specification {
 
     /*
      The spaceship is a relational operator that performs like Java’s compareTo() comparing two objects
